@@ -14,7 +14,7 @@ const CurrencyFilter = ({ currencies, selectedCurrency = 'rub', onCurrencyChange
                 {currencies.map(({ name, label }) => (
                     <label
                         key={name}
-                        className={`cursor-pointer text-center border-solid border-r border-grey-400 last:border-r-0 basis-1/${currencies.length}`}
+                        className={`cursor-pointer text-center border-solid border-r border-grey-400 last:border-r-0 basis-1/3`}
                     >
                         <input
                             hidden
